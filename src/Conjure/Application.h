@@ -1,8 +1,10 @@
 #pragma once
 
+#include "Core.h"
+
 namespace Conjure {
 
-	class Application
+	class CONJURE_API Application
 	{
 	public:
 		Application();
