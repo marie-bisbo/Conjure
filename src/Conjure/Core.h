@@ -4,7 +4,7 @@
 	#ifdef CJ_BUILD_DLL
 		#define CONJURE_API __declspec(dllexport)
 	#else
-		#define CONJURE_API __declspec(import)
+		#define CONJURE_API __declspec(dllimport)
 	#endif
 #else
 	#error Conjure only supports Windows

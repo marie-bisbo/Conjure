@@ -1,6 +1,22 @@
 #include <Conjure.h>
 
-void main()
+class SandBox : public Conjure::Application
 {
-	Conjure::Print();
+public:
+	SandBox()
+	{
+
+	}
+
+	~SandBox()
+	{
+
+	}
+};
+
+int main()
+{
+	SandBox* sandbox = new SandBox();
+	sandbox->Run();
+	delete sandbox;
 }
