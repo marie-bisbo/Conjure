@@ -14,9 +14,7 @@ public:
 	}
 };
 
-int main()
+Conjure::Application* Conjure::CreateApplication()
 {
-	SandBox* sandbox = new SandBox();
-	sandbox->Run();
-	delete sandbox;
+	return new SandBox();
 }
