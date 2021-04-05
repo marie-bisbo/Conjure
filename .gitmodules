@@ -1,0 +1,3 @@
+[submodule "Conjure/vendor/spdlog"]
+	path = Conjure/vendor/spdlog
+	url = https://github.com/gabime/spdlog
